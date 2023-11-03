@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="shortcut icon" href="Rafael-Alberti.png" />
+  </head>
+  <body>
+    <div class="contenido">
+      <h1>JavaScript Moderno</h1>
+      <a href="https://iesrafaelalberti.es/" target="_blank"
+        >iesrafaelalberti.es</a
+      >
+      <p>Instroducción</p>
+      <p class="hashtag">#DWEC</p>
+    </div>
+
+    <!-- 01 - Extensiones de Visual Code:
+        - Live server
+        - Jajascript snnipets
+        - ESlint (la usaremos mas adelante)
+        - Prettier (la usaremos mas adelante)
+        - ¿Cuales usáis vosotros?
+    -->
+
+    <!-- 02 - JavaScript en el HTML
+        JavaScript puede ser agregado en cualquier lugar (mostrar head, body o antes del cierre del body)
+
+        Muchas personas que vienen de lenguajes como Java o C preguntan que como se compila Javascript, 
+        todos los navegadores ya tienen un engine que comprende JavaScript, por lo tanto solo basta 
+        con colocar las etiquetas <script>
+    -->
+
+    <!-- Si bien es cierto que podemos colocar nuestro script en cualquier lugar del código HTML, el sitio 
+    mas adecado es anes del cierre de la etiqueta body. Por varias razones:
+    - Por performance, a veces es un código pesado, aunque podemos usar async, defer...(esto lo veremos
+        mas adelante).
+    - Porque quizas hacemos uso de una etiqueta HTML en nuestro script, ...
+    - Etc...
+   -->
+
+    <!-- <script>
+        alert("Hola Mundo")
+    </script> -->
+
+    <!-- 03 - JavaScript Externo 
+        Usualmente tu código JavaScript se recomienda colocarlo en un archivo externo, 
+        veamos como hacerlo...
+    -->
+    <script src="js/app2.js"></script>
+  </body>
+</html>
