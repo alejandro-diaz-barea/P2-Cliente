@@ -20,8 +20,6 @@ IndexedDB permite crear índices para acelerar las consultas. Puedes indexar pro
 
 ## Uso básico
 
-A continuación, se muestra un ejemplo simple de cómo usar IndexedDB en JavaScript:
-
 ```javascript
 // Abrir una base de datos
 var request = indexedDB.open("MiBaseDeDatos", 1);
